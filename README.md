@@ -72,8 +72,8 @@ import basic from './basic.vue';
 
 # 按钮
 ## 基础用法
-# button/basic是docs/component相对路径必填，否则查看不了源码
+// button/basic是docs/component相对路径必填，否则查看不了源码
 :::demo button/basic
-# 组件例子显示，内部会以slot插入
+// 组件例子显示，内部会以slot插入
 <basic></basic>
 ::: 
