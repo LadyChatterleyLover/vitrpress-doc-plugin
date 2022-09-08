@@ -1,0 +1,24 @@
+{
+  "name": "vitePress-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "devDependencies": {
+    "@element-plus/icons-vue": "^2.0.6",
+    "@types/node": "^18.7.13",
+    "@vueuse/core": "^9.1.0",
+    "element-plus": "^2.2.14",
+    "escape-html": "^1.0.3",
+    "markdown-it-container": "^3.0.0",
+    "prismjs": "^1.29.0",
+    "sass": "^1.54.5",
+    "vitepress": "^1.0.0-alpha.10",
+    "vitepress-doc-plugin": "^0.1.0",
+    "vue": "^3.2.37"
+  }
+}
