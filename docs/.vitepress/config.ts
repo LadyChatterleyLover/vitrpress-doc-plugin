@@ -1,8 +1,8 @@
 import { markdownConfig } from "vitepress-doc-plugin"
 export default {
-  base: process.env.NODE_ENV === "production" ? "/vitepress-demo/" : "/",
+  base: process.env.NODE_ENV === "production" ? "/vitepress-doc-plugin-web/" : "/",
   outDir: "../dist",
-  title: "前端开发文档",
+  title: "vitepress-doc-plugin",
   description: "Just playing around.",
   markdown: {
     config: markdownConfig,
@@ -19,23 +19,11 @@ export default {
     ],
   ],
   themeConfig: {
-    siteTitle: "前端开发文档",
+    siteTitle: "vitepress-doc-plugin",
     nav: [
-      { text: "指南", link: "/guide/introduce" },
       { text: "组件", link: "/component/button/" },
     ],
     sidebar: {
-      "/guide/": [
-        {
-          text: "指南",
-          items: [
-            { text: "介绍", link: "/guide/introduce" },
-            { text: "开发环境", link: "/guide/develop" },
-            { text: "风格指南", link: "/guide/style" },
-            { text: "反馈", link: "/guide/feedback" },
-          ],
-        },
-      ],
       "/component/": [
         {
           text: "组件",
