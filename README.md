@@ -14,7 +14,7 @@
 <p>
 
 <p align="center">
-<a href="https://github.com/LadyChatterleyLover/vitepress-doc-plugin-web](https://ladychatterleylover.github.io/vitepress-doc-plugin-web">在线预览</a>
+<a href="https://ladychatterleylover.github.io/vitepress-doc-plugin-web">在线预览</a>
 </p>
 
 <h4 align="center">
