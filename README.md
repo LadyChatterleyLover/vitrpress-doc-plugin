@@ -13,6 +13,10 @@
   <a href="https://www.npmjs.com/package/vitepress-doc-plugin"><img src="https://img.shields.io/npm/v/vitepress-doc-plugin?color=729B1B&label="></a>
 <p>
 
+<p align="center">
+<a href="https://github.com/LadyChatterleyLover/vitepress-doc-plugin-web>在线预览</a>
+</p>
+
 <h4 align="center">
 
 </h4>
