@@ -53,7 +53,11 @@ export function genApi(apiPath) {
             obj.demo = `<a href=#${value}>${value}</a>`
           }
         })
+        obj.type = obj.type === undefined ? '-' : obj.type
+        obj.typeName = obj.typeName === undefined ? '-' : obj.typeName
         obj.default = obj.default === undefined ? '-' : obj.default
+        obj.desc = obj.desc === undefined ? '-' : obj.desc
+        obj.demo = obj.demo === undefined ? '-' : obj.demo
         arr.push(obj)
       })
     },
