@@ -106,7 +106,7 @@ export function genApi(apiPath) {
       })
       tCode = tCode.slice(0, tCode.length - 2)
       let type = '``` js\n' + `type ${item.type} = ${tCode}` + '\n ```'
-      typeCode.push(`### ${item.type} \n` + type)
+      typeCode.push(`#### ${item.type} \n` + type)
     })
   }
   code = turndownService.turndown(code)

@@ -1,8 +1,8 @@
 <template>
-  <h2 :id="`${name}-参数`" tabindex="-1">{{ name }} 参数</h2>
+  <h3 :id="`${name}-参数`" tabindex="-1">{{ name }} 参数</h3>
   <div v-html="sourceCode" />
   <template v-if="typeCode.length">
-    <h2 :id="`${name} 类型定义`" tabindex="-1">{{ name }} 类型定义</h2>
+    <h3 :id="`${name} 类型定义`" tabindex="-1">{{ name }} 类型定义</h3>
     <div class="example-api" v-for="(item, index) in typeCode" :key="index" v-highlight v-html="marked(item)"></div>
   </template>
 </template>
@@ -77,5 +77,9 @@ const typeCode = computed(() => {
 }
 .vp-doc table {
   display: table;
+}
+h3,
+h4 {
+  margin-top: 2rem;
 }
 </style>

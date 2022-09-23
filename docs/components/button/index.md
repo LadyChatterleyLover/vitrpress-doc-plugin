@@ -9,22 +9,22 @@ import icon from './icon.vue'
 
 # 按钮
 
-## 形态
+### 形态
 :::demo button/basic
 <basic></basic>
 ::: 
 
-## 主题色
+### 主题色
 :::demo button/theme
 <theme></theme>
 ::: 
 
-## 尺寸
+### 尺寸
 :::demo button/size
 <size></size>
 ::: 
 
-## 禁用状态
+### 禁用状态
 
 你可以使用 `disabled` 属性来定义按钮是否被禁用
 
@@ -34,13 +34,13 @@ import icon from './icon.vue'
 
 :::
 
-## 加载中状态
+### 加载中状态
 :::demo button/loading
 <loading></loading>
 ::: 
   
 
-## 图标按钮
+### 图标按钮
 :::demo button/icon
 <icon></icon>
 ::: 
