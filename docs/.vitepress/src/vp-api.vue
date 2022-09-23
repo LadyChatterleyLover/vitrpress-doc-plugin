@@ -75,4 +75,7 @@ const typeCode = computed(() => {
     color: indianred;
   }
 }
+.vp-doc table {
+  display: table;
+}
 </style>
