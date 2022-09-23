@@ -9,16 +9,25 @@
     "docs:serve": "vitepress serve docs"
   },
   "devDependencies": {
-    "@element-plus/icons-vue": "^2.0.6",
+    "@babel/generator": "^7.19.0",
+    "@babel/parser": "^7.19.1",
+    "@babel/traverse": "^7.19.1",
+    "@babel/types": "^7.19.0",
     "@types/node": "^18.7.13",
-    "@vueuse/core": "^9.1.0",
-    "element-plus": "^2.2.14",
     "escape-html": "^1.0.3",
+    "fast-glob": "^3.2.12",
+    "highlight.js": "^11.6.0",
     "markdown-it-container": "^3.0.0",
+    "marked": "^4.1.0",
     "prismjs": "^1.29.0",
     "sass": "^1.54.5",
+    "turndown-plugin-gfm": "^1.0.2",
     "vitepress": "^1.0.0-alpha.10",
     "vitepress-doc-plugin": "^0.1.0",
     "vue": "^3.2.37"
+  },
+  "dependencies": {
+    "turndown": "^7.1.1",
+    "vue-devui": "^1.1.0"
   }
 }

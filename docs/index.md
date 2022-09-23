@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: 快速开始
-      link: /component/button/
+      link: /components/button/
     - theme: alt
       text: 在GitHub上查看
       link: https://github.com/LadyChatterleyLover/vitrpress-doc-plugin
